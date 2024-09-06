@@ -13,7 +13,7 @@ body {
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
-.roboto-bold {
+.weather-city {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -39,7 +39,7 @@ body {
     color: purple;
 }
 
-.heading-1 {
+#search-form-input {
     background-color: #e0dbdb;
     color: darkgrey;
     border-radius: 4px;
@@ -47,7 +47,7 @@ body {
     padding: 8px;
 }
 
-.heading-2 {
+#search-form-button {
     background-color: #b476ee;
     color: white;
     border-radius: 4px;

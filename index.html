@@ -10,21 +10,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Isimo sezulu</title>
 </head>
 
 <body>
     <div class="wrap">
         <header>
-            <form>
-                <input type="search" placeholder="Enter a city.." required class="heading-1" />
-                <input type="submit" value="Search" class="heading-2" />
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city.." required class="search-form-input" id="search-form-input"/>
+                <input type="submit" value="Search" class="search-form-button" id="search-form-button"/>
             </form>
         </header>
         <main>
             <div class="current-weather">
                 <div>
-                    <h1 class="roboto-bold">Paris</h1>
+                    <h1 class="weather-city" id="weather-city">Paris</h1>
                 </div>
 
                 <p>
@@ -45,5 +46,5 @@
         </footer>
     </div>
 </body>
-
+<script src="Java/index.js"></script>
 </html>
