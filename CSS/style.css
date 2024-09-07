@@ -30,11 +30,14 @@ body {
     top: -88px;
 }
 
-.temperature-1 {
+.humidity {
     font-weight: bold;
     color: crimson;
 }
-
+.wind-speed {
+    font-weight: bold;
+    color: crimson;
+}
 .coded-by {
     color: purple;
 }
