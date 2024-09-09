@@ -85,3 +85,28 @@ main .current-weather {
     border-radius: 10px;
     padding: 0 15px;
 }
+.weather-forecast{
+    display:flex;
+    justify-content: space-around;
+    margin-top:30px;
+}
+.weather-forecast-date{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.932);
+    font-size:16px;
+    line-height:20px;
+}
+.weather-forecast-icon{
+    font-size:22px;
+    text-align:center;
+}
+.weather-forecast-temperatures{
+    text-align: center;
+    color: rgb(239, 50, 81);
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.weather-forecast-temperature{
+    padding:0 5px;
+}
