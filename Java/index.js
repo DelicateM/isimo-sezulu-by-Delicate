@@ -50,7 +50,7 @@ function displayForecast (){
   let days = ["Wed","Thu","Fri","Sat","Sun"];
   let forecastHTML = "";
   days.forEach (function(day) {
-    forecastHTML = forecastElement +
+    forecastHTML = forecastElemEnt +
      
      `<div class = "weather-forecast-day">
                     <div class = "weather-forecast-date">${day}</div>
