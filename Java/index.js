@@ -53,11 +53,12 @@ function formatDay (timestamp){
 }
 function getForecast(city){
   let apiKey = "e3b3095tf9493f408498of3c2e1c6a18";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`
    axios.get(apiUrl).then(displayForecast);
 }
 function displayForecast (response)
-{
+
+{ 
   let forecastHTML = "";
 response.data.daily.forEach(function (day, index) {
     if (index < 5){
@@ -82,5 +83,5 @@ let searchFormElement=document.querySelector("#search-form");
 searchFormElement.addEventListener("submit",handleSearchSubmit);
 
 searchCity("Johannesburg");
-displayForecast();
+
 
