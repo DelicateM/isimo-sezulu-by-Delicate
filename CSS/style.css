@@ -32,7 +32,7 @@ body {
 
 .temperature {
   font-family: "Roboto", sans-serif;
-
+  display: flex;
   font-style: normal;
   line-height: 88px;
   margin-left: 10px;
