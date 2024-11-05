@@ -22,7 +22,6 @@ body {
 .icon {
   width: 88px;
   height: 88px;
-  max-width: 100%;
 }
 .weather-app-container {
   display: flex;
