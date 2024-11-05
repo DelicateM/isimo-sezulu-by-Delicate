@@ -22,8 +22,6 @@ body {
 .icon {
   width: 88px;
   height: 88px;
-  display: block;
-  margin: 0 auto;
 }
 .weather-app-container {
   display: flex;
@@ -98,8 +96,6 @@ main .current-weather {
 .weather-forecast-icon {
   width: 88px;
   height: 88px;
-  display: block;
-  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
